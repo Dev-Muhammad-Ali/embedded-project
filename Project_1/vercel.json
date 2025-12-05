@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/wsgi.py": {
+    "wsgi.py": {
       "runtime": "python3.11"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/wsgi.py" }
+    { "src": "/(.*)", "dest": "wsgi.py" }
   ]
 }
